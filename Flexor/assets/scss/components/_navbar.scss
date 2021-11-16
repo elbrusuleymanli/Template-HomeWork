@@ -1,0 +1,279 @@
+#header {
+  display: flex;
+  margin: 0.8rem 0.4rem 0 0.6rem;
+  .logo {
+    a {
+      color: #1e5f8d;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      font-size: 1.5rem;
+      letter-spacing: -0.8px;
+      font-weight: 500;
+
+      img {
+        width: 2rem;
+      }
+      #brand-name {
+        margin-left: 0.4rem;
+        text-transform: uppercase;
+
+        span {
+          color: #00a6eb;
+        }
+      }
+    }
+  }
+  .devices {
+    ul {
+      display: flex;
+
+      li {
+        margin-left: 10px;
+        text-align: center;
+        padding: 0.1rem;
+        &:first-child {
+          border-bottom: 2px solid #00a6eb;
+          width: 2.5rem;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          a {
+            i {
+              color: #1e5f8d;
+              transition: linear 0.3s;
+              &:hover {
+                color: #00a6eb;
+                transition: linear 0.3s;
+              }
+            }
+          }
+        }
+
+        a {
+          i {
+            width: 2rem;
+            height: 2rem;
+            font-size: 1.2rem;
+            color: #00a6eb;
+          }
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  margin-left: auto;
+  margin-top: 5px;
+
+  ul {
+    display: flex;
+  }
+  li {
+    &:nth-child(3) {
+      a {
+        background-color: #00a6eb;
+        color: white;
+        outline: none;
+        border: none;
+        &:hover {
+          color: white;
+          background-color: #1eb2f1;
+        }
+      }
+    }
+    &:nth-child(4),
+    &:nth-child(5) {
+      a {
+        padding-right: 1.1rem;
+      }
+    }
+    a {
+      color: #828282;
+      border-color: #ffffff;
+      border: solid 1px #dfdfdf;
+      margin-right: 5px;
+      padding: 0.6rem;
+      border-radius: 5px;
+      text-align: center;
+      opacity: 0.9;
+      transition: linear 0.3s;
+      &:hover {
+        color: #00a6eb;
+        border-color: #00a6eb;
+        transition: linear 0.3s;
+      }
+
+      i {
+        width: 2rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+#info {
+  display: flex;
+  background-color: #39312f;
+  width: 100%;
+
+  .information {
+    align-items: center;
+    justify-content: space-between;
+    .email-phone {
+      .email {
+        margin-right: 0.7rem;
+        padding-right: 1rem;
+        a {
+          color: white;
+          transition: 0.2s;
+          &:hover {
+            color: $secondary-color;
+            transition: 0.2s;
+          }
+          i {
+            color: $secondary-color;
+            font-size: 0.9rem;
+          }
+         
+        }
+      }
+      .phone {
+        
+          color: white;
+          i {
+            font-size: 0.9rem;
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+    .get-start {
+      align-items: center;
+      display: flex;
+
+      .button {
+        padding: 0.6rem 1.3rem;
+        background-color: $secondary-color;
+        text-align: center;
+        color: white;
+        margin-right: 0.5rem;
+        transition: 0.2s;
+
+        &:hover {
+          background-color: rgb(255, 102, 46);
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+
+#nav-bar {
+  
+  .brand-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .7rem;
+    .brand {
+      font-size: 2rem;
+      font-weight: 700;
+      
+      
+      a {
+        color: $title-color; 
+     
+      }
+    }
+  }
+  .menu {
+    ul {
+      display: flex;
+
+      .option {
+        &:first-child {
+          a {
+            color: $secondary-color;
+          }
+        }
+        a {
+          padding-left: 2rem;
+          color: $title-color;
+          font-family: $other-font;
+          font-size: 0.95rem;
+          transition: 0.2s;
+          &:hover {
+            color: $secondary-color;
+            transition: 0.2s;
+          }
+          i {
+            font-size: 0.8rem;
+          }
+        }
+      }
+      .drop-down {
+        position: relative;
+        &:hover{
+            .drop-window{
+                visibility: visible;
+                opacity: 1;
+                z-index: 100;
+                transition: linear .3s;
+               
+
+            }
+        }
+
+        ul {
+          display: block;
+          padding: 0;
+        }
+        .drop-window {
+          line-height: 2.5rem;
+          width: 14rem;
+          position: absolute;
+          top: 36px;
+          right: -60px;
+          visibility: hidden;
+                opacity: 0;
+                z-index: 0;
+                transition: linear .3s;
+         
+
+          ul {
+            li {
+              opacity: 0.9;
+              &:nth-child(2):hover{
+                .drop-window-second{
+                    visibility: visible;
+                opacity: 1;
+                z-index: 100;
+                transition: linear .3s;
+                }
+             }
+              .drop-window-second {
+                position: absolute;
+                top: 3rem;
+                right: -185px;
+                width: 12.5rem;
+                visibility: hidden;
+                opacity: 0;
+                z-index: 0;
+                transition: linear .3s;
+              
+              }
+
+             
+            }
+          }
+
+          i {
+            padding-left: 1.7rem;
+            font-size: 0.7rem;
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
+
