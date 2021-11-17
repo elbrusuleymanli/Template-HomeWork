@@ -1,0 +1,197 @@
+#missions {
+  padding-top: 3rem;
+  .card-box-one {
+    background-image: url("../../assets/image/values-1.jpg");
+    padding: 11rem 1.3rem 1.3rem 1.3rem;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+
+    &:hover {
+      .card-info {
+        color: white;
+        background-color: $secondary-color;
+        opacity: 1;
+        transition: .3s;
+      }
+      
+    }
+   
+
+    .card-info {
+      background-color: white;
+      opacity: 0.8;
+
+      h4 {
+        text-align: center;
+        padding-top: 0.7rem;
+      }
+      p {
+        padding: 0.7rem 1.5rem 0rem 1.5rem;
+        font-size: 1.1rem;
+      }
+      .mission-more {
+        padding: 0 2rem 1rem 1.5rem;
+       
+        a {
+          color: #656262;
+          font-size: 0.9rem;
+          font-weight: 600;
+          letter-spacing: -0.03rem;
+          i {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+  .card-box-two {
+    background-image: url("../../assets/image/values-2.jpg");
+    padding: 11rem 1.3rem 1.3rem 1.3rem;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+
+    &:hover {
+      .card-info {
+        color: white;
+        background-color: $secondary-color;
+        opacity: 1;
+        transition: .3s;
+      }
+      
+    }
+   
+
+    .card-info {
+      background-color: white;
+      opacity: 0.8;
+
+      h4 {
+        text-align: center;
+        padding-top: 0.7rem;
+      }
+      p {
+        padding: 0.7rem 1.5rem 0rem 1.5rem;
+        font-size: 1.1rem;
+      }
+      .mission-more {
+        padding: 0 2rem 1rem 1.5rem;
+       
+        a {
+          color: #656262;
+          font-size: 0.9rem;
+          font-weight: 600;
+          letter-spacing: -0.03rem;
+          i {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+  .card-box-three {
+    background-image: url("../../assets/image/values-3.jpg");
+    padding: 11rem 1.3rem 1.3rem 1.3rem;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    margin-top: 1.5rem;
+
+    &:hover {
+      .card-info {
+        color: white;
+        background-color: $secondary-color;
+        opacity: 1;
+        transition: .3s;
+      }
+      
+    }
+   
+
+    .card-info {
+      background-color: white;
+      opacity: 0.8;
+
+      h4 {
+        text-align: center;
+        padding-top: 0.7rem;
+      }
+      p {
+        padding: 0.7rem 1.5rem 0rem 1.5rem;
+        font-size: 1.1rem;
+      }
+      .mission-more {
+        padding: 0 2rem 1rem 1.5rem;
+       
+        a {
+          color: #656262;
+          font-size: 0.9rem;
+          font-weight: 600;
+          letter-spacing: -0.03rem;
+          i {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+  .card-box-four{
+    background-image: url("../../assets/image/values-4.jpg");
+    padding: 11rem 1.3rem 1.3rem 1.3rem;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+    margin-top: 1.5rem;
+
+    &:hover {
+      .card-info {
+        color: white;
+        background-color: $secondary-color;
+        opacity: 1;
+        transition: .3s;
+      }
+      
+    }
+   
+
+    .card-info {
+      background-color: white;
+      opacity: 0.8;
+
+      h4 {
+        text-align: center;
+        padding-top: 0.7rem;
+      }
+      p {
+        padding: 0.7rem 1.5rem 0rem 1.5rem;
+        font-size: 1.1rem;
+      }
+      .mission-more {
+        padding: 0 2rem 1rem 1.5rem;
+       
+        a {
+          color: #656262;
+          font-size: 0.9rem;
+          font-weight: 600;
+          letter-spacing: -0.03rem;
+          i {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+}

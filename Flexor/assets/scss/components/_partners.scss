@@ -1,0 +1,42 @@
+#partners {
+  margin-top: 3rem;
+  .partner-list {
+    .partner {
+      ul {
+        display: flex;
+
+        .client {
+          filter: grayscale(100%);
+          opacity: 0.7;
+          &:hover {
+            filter: grayscale(0);
+            opacity: 1;
+          }
+          .cl {
+            width: 50%;
+          }
+        }
+      }
+    }
+    .dots {
+      ul {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+        li {
+          width: 0.75rem;
+          height: 0.75rem;
+          border-radius: 50%;
+          border: 1px solid #ff5821;
+          margin-left: 0.5rem;
+          cursor: pointer;
+
+          &:first-child {
+            background-color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
