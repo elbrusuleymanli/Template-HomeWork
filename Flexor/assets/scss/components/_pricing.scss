@@ -1,0 +1,266 @@
+#pricing {
+  margin-top: 3rem;
+
+  .price {
+    .top-price {
+      text-align: center;
+      h2 {
+        font-weight: 700;
+        opacity: 0.6;
+      }
+      p {
+        margin-top: 1rem;
+        opacity: 0.8;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .card-one {
+      text-align: center;
+      border-radius: 0.5rem;
+      .card-topic {
+        h3 {
+          background-color: #f8f8f8;
+          padding: 1.3rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+      }
+      .card-body {
+        h4 {
+          font-size: 2.2rem;
+          color: $secondary-color;
+          font-weight: 600;
+          font-family: $other-font;
+          margin-bottom: 20px;
+          sup {
+            font-size: 1.3rem;
+          }
+
+          span {
+            color: #bababa;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: $other-font;
+          }
+        }
+        .free {
+          li {
+            line-height: 2.3rem;
+            &:nth-child(n + 4) {
+              text-decoration: line-through;
+              color: #ccc;
+            }
+          }
+        }
+      }
+      .card-bottom {
+        background-color: #f8f8f8;
+        padding: 1.3rem;
+
+        button {
+          width: 8rem;
+          height: 2.2rem;
+          border-radius: 0.2rem;
+          outline: none;
+          background-color: $secondary-color;
+          border: none;
+          color: white;
+          font-family: $secondary-font;
+          font-weight: 600;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+    .card-two {
+      text-align: center;
+      border-radius: 0.5rem;
+      .card-topic {
+        h3 {
+          background-color: $secondary-color;
+          padding: 1.3rem;
+          font-size: 1rem;
+          font-weight: 600;
+          color: white;
+        }
+      }
+      .card-body {
+        h4 {
+          font-size: 2.2rem;
+          color: $secondary-color;
+          font-weight: 600;
+          font-family: $other-font;
+          margin-bottom: 20px;
+          sup {
+            font-size: 1.3rem;
+          }
+
+          span {
+            color: #bababa;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: $other-font;
+          }
+        }
+        ul {
+          li {
+            line-height: 2.3rem;
+            &:nth-child(5) {
+              text-decoration: line-through;
+              color: #ccc;
+            }
+          }
+        }
+      }
+      .card-bottom {
+        background-color: #f8f8f8;
+        padding: 1.3rem;
+
+        button {
+          width: 8rem;
+          height: 2.2rem;
+          border-radius: 0.2rem;
+          outline: none;
+          background-color: $secondary-color;
+          border: none;
+          color: white;
+          font-family: $secondary-font;
+          font-weight: 600;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+    .card-three {
+      text-align: center;
+      border-radius: 0.5rem;
+      .card-topic {
+        h3 {
+          background-color: #f8f8f8;
+          padding: 1.3rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+      }
+      .card-body {
+        h4 {
+          font-size: 2.2rem;
+          color: $secondary-color;
+          font-weight: 600;
+          font-family: $other-font;
+          margin-bottom: 20px;
+          sup {
+            font-size: 1.3rem;
+          }
+
+          span {
+            color: #bababa;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: $other-font;
+          }
+        }
+        ul {
+          li {
+            line-height: 2.3rem;
+          }
+        }
+      }
+      .card-bottom {
+        background-color: #f8f8f8;
+        padding: 1.3rem;
+
+        button {
+          width: 8rem;
+          height: 2.2rem;
+          border-radius: 0.2rem;
+          outline: none;
+          background-color: $secondary-color;
+          border: none;
+          color: white;
+          font-family: $secondary-font;
+          font-weight: 600;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+    .card-four {
+      text-align: center;
+      border-radius: 0.5rem;
+
+      .card-topic {
+        position: relative;
+        overflow: hidden;
+        .advanced {
+          position: absolute;
+          top: 14px;
+          right: -26px;
+          transform: rotate(45deg);
+          background-color: $secondary-color;
+          padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+          font-weight: 500;
+          color: white;
+          font-size: 0.7rem;
+        }
+        h3 {
+          background-color: #f8f8f8;
+          padding: 1.3rem;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+      }
+      .card-body {
+        h4 {
+          font-size: 2.2rem;
+          color: $secondary-color;
+          font-weight: 600;
+          font-family: $other-font;
+          margin-bottom: 20px;
+          sup {
+            font-size: 1.3rem;
+          }
+
+          span {
+            color: #bababa;
+            font-size: 1rem;
+            font-weight: 400;
+            font-family: $other-font;
+          }
+        }
+        ul {
+          li {
+            line-height: 2.3rem;
+          }
+        }
+      }
+      .card-bottom {
+        background-color: #f8f8f8;
+        padding: 1.3rem;
+
+        button {
+          width: 8rem;
+          height: 2.2rem;
+          border-radius: 0.2rem;
+          outline: none;
+          background-color: $secondary-color;
+          border: none;
+          color: white;
+          font-family: $secondary-font;
+          font-weight: 600;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+  }
+}

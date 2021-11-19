@@ -1,0 +1,42 @@
+#footer-end{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+.end-content{
+    font-size: .8rem;
+   
+    .copyright{
+       
+    }
+    .design{
+        padding-top: .3rem;
+        
+        a{
+            color: $secondary-color;
+            &:hover{
+                opacity: .8;
+            }
+
+        }
+    }
+    .sosial-media{
+        margin: auto;
+        margin-right: 0;
+
+        i{
+            color: white;
+            padding: .7rem;
+            background-color:$secondary-color ;
+            font-size: 1.1rem;
+            border-radius: 100%;
+            margin: .1rem;
+            &:hover{
+                opacity: .8;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+}

@@ -7,12 +7,11 @@
       text-align: center;
       h2 {
         font-weight: 700;
-        opacity: .6;
-        
+        opacity: 0.6;
       }
       p {
         margin-top: 1rem;
-        opacity: .8;
+        opacity: 0.8;
         font-size: 1.1rem;
       }
     }
@@ -23,51 +22,63 @@
         padding-top: 3rem;
 
         &:hover {
-          i {
-            width: 4.5rem;
-            height: 4.5rem;
-            background-color: white;
-            color: $secondary-color;
-            transition: 0.3s;
-            right: 40%;
-            top: -2.2rem;
+          .bg-circle {
+            border: 2px solid $secondary-color;
+            transition: 0.1s;
+
+            i {
+              background-color: white;
+              color: $secondary-color;
+              border: none;
+              font-size: 1.5rem;
+              transition: 0.1s;
+            }
           }
           h4 {
             color: $secondary-color;
           }
         }
-
-        i {
+        .bg-circle {
           position: absolute;
-          top: -2rem;
-          right: 43%;
-          width: 3.7rem;
-          height: 3.7rem;
+          top: -2.5rem;
+          right: 40%;
+          width: 4.5rem;
+          height: 4.55rem;
           border-radius: 50%;
-          border: 2px solid #ff5821;
-          text-align: center;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 1.5rem;
-          color: white;
-          background-color: $secondary-color;
-          transition: 0.3s;
+          border: 2px solid #ffffff;
+          background-color: white;
+          transition: 0.1s;
+          i {
+            position: absolute;
+            top: 5px;
+            right: 7%;
+            width: 3.7rem;
+            height: 3.7rem;
+            border-radius: 50%;
+            border: 2px solid #ff5821;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: white;
+            background-color: $secondary-color;
+            transition: 0.1s;
+          }
         }
-
         h4 {
           text-align: center;
           color: $primary-color;
-          font-family:$primary-font;
+          font-family: $primary-font;
           font-weight: 600;
           font-size: 1.2rem;
-          padding-bottom: .8rem;
+          padding-bottom: 0.8rem;
         }
         p {
           text-align: center;
           color: $primary-color;
-          font-family:$primary-font;
-          font-size: .9rem;
+          font-family: $primary-font;
+          font-size: 0.9rem;
         }
       }
     }

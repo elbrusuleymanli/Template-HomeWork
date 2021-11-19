@@ -1,0 +1,75 @@
+#footer-general {
+  padding: 4rem 0 2rem 0;
+  background-color: #fff9f7;
+  .general-options {
+    .footer-adress {
+      .adress {
+        color: #656262;
+      }
+    }
+
+    .links {
+      h4 {
+        color: $primary-color;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-left: 1.5rem;
+      }
+      ul {
+        li {
+          line-height: 2.2rem;
+
+          i {
+            color: $secondary-color;
+            font-size: 0.7rem;
+            padding-right: 0.2rem;
+          }
+          a {
+            color: #656262;
+            transition: 0.2s;
+            &:hover {
+              color: $secondary-color;
+              transition: 0.2s;
+            }
+          }
+        }
+      }
+    }
+    .footer-subscribe {
+      justify-content: end;
+      padding-left: 8rem;
+      h4 {
+        color: $primary-color;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      p {
+        color: $primary-color;
+      }
+      .subscribe {
+        position: relative;
+        .email {
+          padding: 0.6rem 5.5rem;
+          border-radius: 3rem 0 0 3rem;
+          border: 1px solid #ffe2d9;
+        }
+        .submit {
+          padding: 0.7rem 1.5rem;
+          position: absolute;
+          border-radius: 3rem;
+          top: 0;
+          right: -.2rem;
+          color: white;
+          background-color: $secondary-color;
+          font-weight: 400;
+          outline: none;
+          border: none;
+          font-size: 1.04rem;
+          &:hover {
+            background-color: orangered;
+          }
+        }
+      }
+    }
+  }
+}

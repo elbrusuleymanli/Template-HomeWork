@@ -135,53 +135,48 @@
             color: $secondary-color;
             font-size: 0.9rem;
           }
-         
         }
       }
       .phone {
-        
-          color: white;
-          i {
-            font-size: 0.9rem;
-            color: $secondary-color;
-          }
-        }
-      }
-    }
-    .get-start {
-      align-items: center;
-      display: flex;
-
-      .button {
-        padding: 0.6rem 1.3rem;
-        background-color: $secondary-color;
-        text-align: center;
         color: white;
-        margin-right: 0.5rem;
-        transition: 0.2s;
-
-        &:hover {
-          background-color: rgb(255, 102, 46);
-          transition: 0.2s;
+        i {
+          font-size: 0.9rem;
+          color: $secondary-color;
         }
       }
     }
   }
+  .get-start {
+    align-items: center;
+    display: flex;
+
+    .button {
+      padding: 0.6rem 1.3rem;
+      background-color: $secondary-color;
+      text-align: center;
+      color: white;
+      margin-right: 1.5rem;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: rgb(255, 110, 57);
+        transition: 0.2s;
+      }
+    }
+  }
+}
 
 #nav-bar {
-  
   .brand-menu {
     display: flex;
     justify-content: space-between;
-    padding-top: .7rem;
+    padding-top: 0.7rem;
     .brand {
       font-size: 2rem;
       font-weight: 700;
-      
-      
+
       a {
-        color: $title-color; 
-     
+        color: $title-color;
       }
     }
   }
@@ -212,15 +207,13 @@
       }
       .drop-down {
         position: relative;
-        &:hover{
-            .drop-window{
-                visibility: visible;
-                opacity: 1;
-                z-index: 100;
-                transition: linear .3s;
-               
-
-            }
+        &:hover {
+          .drop-window {
+            visibility: visible;
+            opacity: 10;
+            z-index: 100;
+            transition: linear 0.3s;
+          }
         }
 
         ul {
@@ -234,22 +227,21 @@
           top: 36px;
           right: -60px;
           visibility: hidden;
-                opacity: 0;
-                z-index: 0;
-                transition: linear .3s;
-         
+          opacity: 0;
+          z-index: 0;
+          transition: linear 0.3s;
 
           ul {
             li {
               opacity: 0.9;
-              &:nth-child(2):hover{
-                .drop-window-second{
-                    visibility: visible;
-                opacity: 1;
-                z-index: 100;
-                transition: linear .3s;
+              &:nth-child(2):hover {
+                .drop-window-second {
+                  visibility: visible;
+                  opacity: 1;
+                  z-index: 100;
+                  transition: linear 0.3s;
                 }
-             }
+              }
               .drop-window-second {
                 position: absolute;
                 top: 3rem;
@@ -258,11 +250,8 @@
                 visibility: hidden;
                 opacity: 0;
                 z-index: 0;
-                transition: linear .3s;
-              
+                transition: linear 0.3s;
               }
-
-             
             }
           }
 
@@ -276,4 +265,3 @@
     }
   }
 }
-

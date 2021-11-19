@@ -1,0 +1,39 @@
+#faq{
+    background-color: #fff9f7;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    .faq-content{
+        .faq-topic{
+         text-align: center;
+         padding-top: 3rem;
+
+         h3{
+            font-weight: 700;
+            opacity: 0.6;
+         }
+         p{
+            margin-top: 1rem;
+            opacity: 0.8;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+         }
+        }   
+               .accordion-button{
+                   font-weight: 600;
+                   color: $primary-color;
+                   border: none;
+                   outline: none;
+
+                  i{
+                      color: $secondary-color;
+                      font-size: 1.3rem;
+                      opacity: .5;
+                      margin:.3rem;
+                  }
+                  &:hover{
+                   color: $secondary-color;
+               } 
+               }
+               }
+           }
+       
